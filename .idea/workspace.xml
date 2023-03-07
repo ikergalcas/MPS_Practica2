@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61a499e3-2843-46c2-9cdc-4f8fbabe4df1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/mps/deque/DoublyLinkedListDequeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mps/deque/DoublyLinkedListDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mps/deque/DoublyLinkedListDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mps/deque/DoublyLinkedListDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mps/deque/DoublyLinkedListDequeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,45 @@
       <recent name="org.mps.deque" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.DoublyLinkedListDequeTest$WhenNew.excepcionConFirst">
+    <configuration name="DoublyLinkedListDequeTest$WhenNew.excepcionConFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica2_MPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mps.deque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mps.deque.DoublyLinkedListDequeTest" />
+      <option name="MAIN_CLASS_NAME" value="org.mps.deque.DoublyLinkedListDequeTest$WhenNew" />
+      <option name="METHOD_NAME" value="excepcionConFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedListDequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica2_MPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mps.deque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mps.deque" />
+      <option name="MAIN_CLASS_NAME" value="org.mps.deque.DoublyLinkedListDequeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DoublyLinkedListDequeTest$WhenNew.excepcionConFirst" />
+        <item itemvalue="JUnit.DoublyLinkedListDequeTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678184083336</updated>
-      <workItem from="1678184084492" duration="3138000" />
+      <workItem from="1678184084492" duration="4390000" />
     </task>
     <servers />
   </component>

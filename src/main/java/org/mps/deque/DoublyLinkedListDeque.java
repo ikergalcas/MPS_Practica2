@@ -43,7 +43,7 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
     @Override
     public void deleteFirst() {
         if (size == 0){
-            throw new DoubleEndedQueueException("Cannot delete from an empty queue");
+            throw new DoubleEndedQueueException("No se puede borrar de una cola vacía");
         }
         first = first.getNext();
         first.setPrevious(null);
@@ -53,7 +53,7 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
     @Override
     public void deleteLast() {
         if (size == 0){
-            throw new DoubleEndedQueueException("Cannot delete from an empty queue");
+            throw new DoubleEndedQueueException("No se puede borrar de una cola vacía");
         }
         last = last.getPrevious();
         last.setNext(null);
@@ -63,7 +63,7 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
     @Override
     public T first() {
         if (size == 0){
-            throw new DoubleEndedQueueException("The queue is empty");
+            throw new DoubleEndedQueueException("La cola está vacía");
         }
         return first.getItem();
     }
@@ -71,7 +71,7 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
     @Override
     public T last() {
         if (size == 0){
-            throw new DoubleEndedQueueException("The queue is empty");
+            throw new DoubleEndedQueueException("La cola está vacía");
         }
         return last.getItem();
     }
