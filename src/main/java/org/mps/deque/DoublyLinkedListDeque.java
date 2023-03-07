@@ -6,30 +6,45 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
     private DequeNode<T> last;
     private int size;
 
-    public DoublyLinkedListDeque(DequeNode<T> f, DequeNode<T> l, int s) {
-        first = f;
-        last = l;
-        size = s;
+    public DoublyLinkedListDeque(){
+        first = null;
+        last = null;
+        size = 0;
     }
 
     @Override
     public void prepend(T value) {
-        DequeNode<T> node = new DequeNode<>(value,null, first);
-        first.setPrevious(node);
-        first = node;
+        if (size == 0){
+            DequeNode<T> node = new DequeNode<>(value,null, null);
+            first = node;
+            last = node;
+        } else {
+            DequeNode<T> node = new DequeNode<>(value,null, first);
+            first.setPrevious(node);
+            first = node;
+        }
         size++;
     }
 
     @Override
     public void append(T value) {
-        DequeNode<T> node = new DequeNode<>(value,last, null);
-        last.setNext(node);
-        last = node;
+        if (size == 0){
+            DequeNode<T> node = new DequeNode<>(value,null, null);
+            first = node;
+            last = node;
+        } else {
+            DequeNode<T> node = new DequeNode<>(value, last, null);
+            last.setNext(node);
+            last = node;
+        }
         size++;
     }
 
     @Override
     public void deleteFirst() {
+        if (size == 0){
+            throw new DoubleEndedQueueException("Cannot delete from an empty queue");
+        }
         first = first.getNext();
         first.setPrevious(null);
         size--;
@@ -37,7 +52,9 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
 
     @Override
     public void deleteLast() {
-        // TODO
+        if (size == 0){
+            throw new DoubleEndedQueueException("Cannot delete from an empty queue");
+        }
         last = last.getPrevious();
         last.setNext(null);
         size--;
@@ -45,11 +62,17 @@ public class DoublyLinkedListDeque<T> implements DoubleEndedQueue<T> {
 
     @Override
     public T first() {
+        if (size == 0){
+            throw new DoubleEndedQueueException("The queue is empty");
+        }
         return first.getItem();
     }
 
     @Override
     public T last() {
+        if (size == 0){
+            throw new DoubleEndedQueueException("The queue is empty");
+        }
         return last.getItem();
     }
 
