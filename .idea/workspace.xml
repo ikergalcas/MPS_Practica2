@@ -182,6 +182,7 @@
       <workItem from="1679052356015" duration="200000" />
       <workItem from="1679052560847" duration="631000" />
       <workItem from="1679053768126" duration="273000" />
+      <workItem from="1679054230022" duration="509000" />
     </task>
     <servers />
   </component>
@@ -189,25 +190,25 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Practica2$DequeNodeTest.ic" NAME="DequeNodeTest Coverage Results" MODIFIED="1679052050367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.mps.deque.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/MPS_Practica2_main$DoublyLinkedListDequeTest.ic" NAME="DoublyLinkedListDequeTest Coverage Results" MODIFIED="1678963504399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.mps.deque.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/MPS_Practica2_main$DoublyLinkedListDequeTest_WhenNew_afterAppend_secondAppend_afterThirdAppend_afterFourthAppend_sortLastOne.ic" NAME="DoublyLinkedListDequeTest$WhenNew$afterAppend$secondAppend$afterThirdAppend$afterFourthAppend.sortLastOne Coverage Results" MODIFIED="1678964929099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Practica2$DoublyLinkedListDequeTest.ic" NAME="DoublyLinkedListDequeTest Coverage Results" MODIFIED="1679052055519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.mps.deque.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/MPS_Practica2_main$DoublyLinkedListDequeTest_WhenNew_sortEmptyList.ic" NAME="DoublyLinkedListDequeTest$WhenNew.sortEmptyList Coverage Results" MODIFIED="1678965410544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.mps.deque.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Practica2$DoublyLinkedListDequeTest_WhenNew_afterAppend_secondAppend.ic" NAME="DoublyLinkedListDequeTest$WhenNew$afterAppend$secondAppend Coverage Results" MODIFIED="1679053794956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Practica2$DoublyLinkedListDequeTest_WhenNew_afterAppend_secondAppend.ic" NAME="DoublyLinkedListDequeTest$WhenNew$afterAppend$secondAppend Coverage Results" MODIFIED="1679054243345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.mps.deque.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Practica2$DoublyLinkedListDequeTest_WhenNew_afterAppend_secondAppend_listIsSorted.ic" NAME="DoublyLinkedListDequeTest$WhenNew$afterAppend$secondAppend.listIsSorted Coverage Results" MODIFIED="1679051918679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.mps.deque.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Practica2$DoublyLinkedListDequeTest.ic" NAME="DoublyLinkedListDequeTest Coverage Results" MODIFIED="1679052055519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Practica2$DequeNodeTest.ic" NAME="DequeNodeTest Coverage Results" MODIFIED="1679052050367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.mps.deque.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/MPS_Practica2_main$DoublyLinkedListDequeTest_WhenNew_afterAppend_secondAppend_afterThirdAppend_afterFourthAppend_sortLastOne.ic" NAME="DoublyLinkedListDequeTest$WhenNew$afterAppend$secondAppend$afterThirdAppend$afterFourthAppend.sortLastOne Coverage Results" MODIFIED="1678964929099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.mps.deque.*</FILTER>
     </SUITE>
   </component>
